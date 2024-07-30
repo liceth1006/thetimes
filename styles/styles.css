@@ -1,0 +1,133 @@
+body{
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+}
+
+h1{
+    font-size: 1.4em;
+}
+
+h1, p{
+    border: solid 1px whitesmoke;
+}
+
+em {
+    color: khaki;
+}
+
+strong{
+    color:firebrick;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.pagina_ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column,row;
+}
+
+.pagina_ul li{
+    background-color: burlywood;
+    flex-grow: 1;
+}
+.pagina_ul a{
+    display: block;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+.pagina_ul a:hover{
+    background-color: blueviolet;
+}
+
+.container{
+    display: block;
+    margin: 20px;
+    
+}
+
+.container div{
+   text-align: center;
+   padding: 30px;
+   background-color: beige;
+   border: solid 2px white;
+   margin-bottom: 4px;
+  
+   
+}
+
+.container div:hover{
+    background-color: rgb(255, 178, 255);
+}
+
+.container2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px;
+}
+
+.container2 div{
+    background-color: rgb(129, 107, 252);
+    padding: 20px;
+    text-align: center;
+}
+
+.container2 div:hover{
+    background-color: rgb(255, 178, 255);
+    border:  solid 2px black;
+}
+table{
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    border-top-width:1px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+th, td{
+    padding: 0.5em;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+th{
+    background-color: azure;
+}
+
+td{
+    background-color: bisque;
+
+}
+
+.grid{
+    grid-template-columns: repeat(2fr, 1fr)
+}
+.div1{
+    background-color: aqua;
+}
+
+.div2{
+    background-color: blue;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
